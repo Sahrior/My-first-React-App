@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from './components/card';
+import Navbar from './components/Navbar';
 
 const App = () => {
 
@@ -7,7 +9,14 @@ const App = () => {
   const city = ['dhaka','london','delhi','kolkata']
 
   return (
+    
     <>
+
+    {/* Compnonents creation */}
+
+      <div>
+            <Navbar/>
+      </div>
 
 
       {/* JSX basic */}
@@ -67,6 +76,12 @@ const App = () => {
       </div>
 
 
+      {/* Compnonents creation */}
+
+      <div>
+            <Card/>
+            <Card/>
+      </div>
 
       
     </>
